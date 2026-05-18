@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="122 52 837 971" width="1080" height="1253">
+  <defs>
+    <clipPath id="mono-clip">
+      <rect x="100" y="174.9" width="900" height="576.2"/>
+    </clipPath>
+  </defs>
+  <rect x="122" y="52" width="837" height="971" fill="#2c6f66"/>
+  <!-- Golden ratio chain: gap=11.7 : border=19 : AK=30.7 : frame-to-AK=49.7 (each ratio = phi) -->
+  <!-- AK strokes: spine/crossbar=30.7, angled=29.0. K junction gap: 6px -->
+  <!-- Angles from vertical: A=18° (golden triangle half-apex), K arm=arctan(1/phi)=31.72° -->
+  <!-- K spread=72° (golden triangle base) -> K leg=40.28° -->
+  <!-- Outer frame: 19px stroke (matches Century Gothic Bold stem at font-size 140) -->
+  <rect x="155" y="85" width="770" height="756" rx="85" ry="85"
+        fill="none" stroke="white" stroke-width="19"/>
+  <!-- Inner frame: concentric, gap=19/phi=11.7 -->
+  <rect x="185.7" y="115.7" width="708.6" height="694.6" rx="54.3" ry="54.3"
+        fill="none" stroke="white" stroke-width="19"/>
+  <g clip-path="url(#mono-clip)" stroke="white" stroke-linecap="butt" fill="none">
+    <line x1="539" y1="150" x2="336" y2="776" stroke-width="29.0"/>
+    <line x1="539" y1="150" x2="539" y2="776" stroke-width="30.7"/>
+    <line x1="539" y1="514" x2="764" y2="150" stroke-width="29.0"/>
+    <line x1="539" y1="520" x2="756" y2="776" stroke-width="29.0"/>
+    <line x1="419" y1="517" x2="539" y2="517" stroke-width="30.7"/>
+  </g>
+  <text x="540" y="976.5" text-anchor="middle" fill="white"
+        font-family="'Century Gothic', sans-serif" font-weight="700"
+        font-size="140" textLength="808" lengthAdjust="spacing">kanepajs.eu</text>
+</svg>
