@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <clipPath id="fav-clip">
+      <rect x="24" y="44" width="272" height="232"/>
+    </clipPath>
+  </defs>
+  <rect width="320" height="320" rx="64" ry="64" fill="#2c6f66"/>
+  <!-- v13 bold favicon for 16-48px: no border, strokes 28/26.4 (~1.4px at 16px) -->
+  <!-- Same angles as master: A=18deg, K arm=31.72deg, K leg=40.28deg -->
+  <g clip-path="url(#fav-clip)" stroke="white" stroke-linecap="butt" fill="none">
+    <line x1="160" y1="33.97" x2="78.26" y2="286.03" stroke-width="26.4"/>
+    <line x1="160" y1="33.97" x2="160" y2="286.03" stroke-width="28"/>
+    <line x1="160" y1="180.53" x2="250.59" y2="33.97" stroke-width="26.4"/>
+    <line x1="160" y1="182.95" x2="247.37" y2="286.03" stroke-width="26.4"/>
+    <line x1="111.68" y1="181.74" x2="160" y2="181.74" stroke-width="28"/>
+  </g>
+</svg>

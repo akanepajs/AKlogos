@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="132 55 817 817" width="1080" height="1080">
+  <defs>
+    <clipPath id="mono-clip">
+      <rect x="100" y="174.9" width="900" height="576.2"/>
+    </clipPath>
+  </defs>
+  <rect x="132" y="55" width="817" height="817" fill="#2c6f66"/>
+  <!-- v13 favicon (64px+): AK + double border, v12 geometry -->
+  <rect x="155" y="85" width="770" height="756" rx="85" ry="85"
+        fill="none" stroke="white" stroke-width="19"/>
+  <rect x="185.7" y="115.7" width="708.6" height="694.6" rx="54.3" ry="54.3"
+        fill="none" stroke="white" stroke-width="19"/>
+  <g clip-path="url(#mono-clip)" stroke="white" stroke-linecap="butt" fill="none">
+    <line x1="539" y1="150" x2="336" y2="776" stroke-width="29"/>
+    <line x1="539" y1="150" x2="539" y2="776" stroke-width="30.7"/>
+    <line x1="539" y1="514" x2="764" y2="150" stroke-width="29"/>
+    <line x1="539" y1="520" x2="756" y2="776" stroke-width="29"/>
+    <line x1="419" y1="517" x2="539" y2="517" stroke-width="30.7"/>
+  </g>
+</svg>

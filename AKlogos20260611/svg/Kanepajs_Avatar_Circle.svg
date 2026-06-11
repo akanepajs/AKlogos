@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <clipPath id="mono-clip">
+      <rect x="100" y="174.9" width="900" height="576.2"/>
+    </clipPath>
+  </defs>
+  <rect width="1080" height="1080" fill="#2c6f66"/>
+  <!-- v13 circle avatar: survives circular platform crops -->
+  <!-- Double circle border r=385/354.3, sw=19, same 11.7 gap chain as the rects -->
+  <g fill="none" stroke="white">
+    <circle cx="540" cy="540" r="385" stroke-width="19"/>
+    <circle cx="540" cy="540" r="354.3" stroke-width="19"/>
+  </g>
+  <g transform="translate(540 540) scale(0.9) translate(-540 -463)">
+    <g clip-path="url(#mono-clip)" stroke="white" stroke-linecap="butt" fill="none">
+      <line x1="539" y1="150" x2="336" y2="776" stroke-width="29"/>
+      <line x1="539" y1="150" x2="539" y2="776" stroke-width="30.7"/>
+      <line x1="539" y1="514" x2="764" y2="150" stroke-width="29"/>
+      <line x1="539" y1="520" x2="756" y2="776" stroke-width="29"/>
+      <line x1="419" y1="517" x2="539" y2="517" stroke-width="30.7"/>
+    </g>
+  </g>
+</svg>
